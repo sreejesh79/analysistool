@@ -1,0 +1,25 @@
+.readonly-tag-btn {
+    width: 100%;
+    height:25px;
+    // margin: 0 10px 10px 0;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: 0px solid transparent;
+    background-color: inherit;
+    //&:nth-child(2n) { background-color: #A6FF94; }
+    &:first-of-type { margin-left: 0; }
+    .readonly-tag-name{
+        padding: 5px 10px 5px 10px;
+        display: inline-block;
+        color: #485762;
+        font-size: 14px;
+        pointer-events: none;
+        white-space: nowrap;
+        max-width: 90%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+}

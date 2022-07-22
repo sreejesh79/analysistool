@@ -1,0 +1,43 @@
+// global stlying 
+ul,
+h1 {
+    margin : 0 !important;
+    padding: 0 !important;
+}
+
+a { text-decoration: none !important; }
+
+// header styling
+.header {    
+    background-image: linear-gradient(to bottom,#0995c3,#b9e4dd);
+    .header-wrapper {
+        width          : 83%;
+        padding        : 16px 0; 
+        margin         : 0 auto;
+        display        : flex;
+        justify-content: space-between;
+        align-items    : center;
+        ul{
+            display: flex;
+            span {
+                padding: 5px;
+                color: #fff;
+            }
+            li { 
+                padding   : 0 5px;
+                list-style: none;
+                &:last-of-type { padding-right: 0; }
+                &:last-of-type a  { padding-right: 0; }
+                &:last-of-type span  { padding-right: 0; }
+                &:first-of-type span { text-transform: capitalize; }
+                span.cursor { cursor: pointer; }
+                a {
+                    padding: 5px;
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+    
+}

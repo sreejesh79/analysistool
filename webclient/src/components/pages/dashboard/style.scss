@@ -1,0 +1,30 @@
+  .lk_studies {
+    display        : flex;
+    justify-content: space-between;
+    width          : 80%;
+    height         : 60px;
+    align-items    : center;
+    padding        : 0 30px;
+    background     : rgba(0, 0, 0, 0.05);
+    border-radius  : 5px;
+    margin-top     : 50px;
+    button img { vertical-align: middle; }
+  }
+
+  .loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background: rgb(233, 240, 255);
+  }
+
+  .dashboard-containeer {
+    min-height: calc(100vh - 141px);
+    .study-type {
+      h2 { 
+        color: rgba(0,0,0,0.6);
+        font-weight: 400;
+      }
+    }
+  }

@@ -1,0 +1,28 @@
+.action-btn{
+    display: inline-flex;
+    .btn {
+        box-sizing: border-box;
+        width: 161px;
+        padding: 7px 8px;
+        border: none;    
+        background-color: rgb(196, 206, 211);    
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        display: inherit;
+        background: rgb(53, 184, 255);
+        &:focus{ outline: none; }
+        &:first-of-type { border-right: 1px solid; }
+        .done-icon {
+            width: 19px;
+            height: 19px;
+            padding: 4px 7px 0 0;
+        }
+        .reset-icon { 
+            width: 19px;
+            height: 19px;
+            padding: 5px 4px 0 20px;
+        }
+        .reset-icon + span { padding-top: 2px; }
+    }
+}

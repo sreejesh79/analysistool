@@ -1,0 +1,51 @@
+.acc-header{
+    background-color: #f9f9f9;
+    cursor: pointer;
+    span {
+      position: relative;
+      font-size: 14px;
+      line-height: 3;
+    }
+    .acc-title {
+      padding-left: 15px;
+      &:after{
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-top: 1px solid #000;
+        border-right: 1px solid #000;
+        position: absolute;
+        top: 5px;
+        right: -25px;
+        transform: rotate(-45deg);
+        transition: all 0.2s linear;
+        cursor: pointer;
+      }
+    }
+    &.active{
+      .acc-title{
+        &:after {
+          transform: rotate(132deg);
+          transition: all 0.2s linear;
+        }
+      }
+    }
+    .no-of-selection {
+      padding-right: 15px;
+      cursor: pointer;    
+      float: right;
+      font-weight: 600;
+    }
+  }
+  .acc-content{
+    display: none;
+    padding: 20px 15px 5px 15px;
+    font-size: 14px;
+    &.show { display: block; }
+    &:nth-child(2n){
+      // height: calc(100vh - 340px);
+      // height: calc(100vh - 383px);
+      height: calc(100vh - 341px);
+      overflow: auto;  
+    }
+}  

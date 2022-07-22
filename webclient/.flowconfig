@@ -1,0 +1,17 @@
+[ignore]
+.*/build
+.*/docs
+.*/node_modules
+.*/public
+[libs]
+flow-typed
+[include]
+src
+[options]
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=src
+module.use_strict=true
+module.name_mapper='.*\(.css\)' -> '<PROJECT_ROOT>/flow/GeneralStub.js.flow'
+module.name_mapper='\(axios\)' -> '<PROJECT_ROOT>/flow/GeneralStub.js.flow'
+esproposal.class_static_fields=enable
+esproposal.class_instance_fields=enable

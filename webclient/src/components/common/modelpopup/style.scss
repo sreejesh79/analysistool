@@ -1,0 +1,28 @@
+.modal-pop-up{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 27;
+    background-color: rgba(0,0,0,.5);
+}
+.centered-loader {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    div {
+        transform-origin: 32px 17px;
+        &:after {
+            top: 3px;
+            left: 29px;
+            height: 10px;
+        }
+    }
+    
+}
+@keyframes fadeOut {
+    0% { opacity: 0;}
+    50% { opacity: 1; }
+    100% { opacity: 0;}
+}

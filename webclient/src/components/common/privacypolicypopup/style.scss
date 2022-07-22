@@ -1,0 +1,81 @@
+.privacy-policy-container {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 27;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    .privacy-policy-wrapper {
+        padding: 5px;
+        background: white;
+        top: 30%;
+        left: 15%;
+        position: relative;
+        width: 70%;
+        height: fit-content;
+        max-height: 40%;
+        text-align: center;
+        border-radius: 5px;
+        .close-container {
+            height: 15px;
+            .close-pop-up {
+                position: absolute;
+                top: 22px;
+                right: 22px;
+                cursor: pointer;
+                -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+                filter: grayscale(100%);
+            }
+        }
+        .close-pop-up {
+            position: absolute;
+            top: 22px;
+            right: 22px;
+            cursor: pointer;
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+        }
+        .close-pop-up:hover{
+            color: #27a1ef;
+        }
+        .privacy-policy-content-wrapper {
+            .welcome-msg {
+                font-size: 22px;
+                color: #056FC6;
+                letter-spacing: 0;
+                text-align: center;
+            }
+            .content {
+                font-size: 16px;
+                color: #636E72;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 22px;
+                a,
+                a:visited {
+                    color: #27a1ef;
+                }
+            }
+            hr {
+                border: 0;
+                border-top: 1px solid #DFE6E9;
+                margin-bottom: 15px;
+            }
+        }
+        .privacy-policy-footer {
+            text-align: center;
+            button {
+                border: 1px solid transparent;
+                padding: 0.85em 1em;
+                margin: 0 0 1rem;
+                background-color: #27a1ef;
+                cursor: pointer;
+                font-size: 15px;
+                color: #fff;
+                letter-spacing: 0;
+                text-align: center;
+            }
+        }
+    }
+}

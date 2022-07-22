@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Keyicons/Filter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.5,4.2 C18.62,4.2 19.6,3.22 19.6,2.1 C19.6,0.98 18.62,0 17.5,0 C16.52,0 15.82,0.56 15.54,1.4 L0,1.4 L0,2.8 L15.54,2.8 C15.82,3.64 16.52,4.2 17.5,4.2 Z M17.5,1.4 C17.92,1.4 18.2,1.68 18.2,2.1 C18.2,2.52 17.92,2.8 17.5,2.8 C17.08,2.8 16.8,2.52 16.8,2.1 C16.8,1.68 17.08,1.4 17.5,1.4 Z M2.1,14 C3.08,14 3.78,14.56 4.06,15.4 L19.6,15.4 L19.6,16.8 L4.06,16.8 C3.78,17.64 3.08,18.2 2.1,18.2 C0.98,18.2 0,17.22 0,16.1 C0,14.98 0.98,14 2.1,14 Z M9.8,7 C10.78,7 11.48,7.56 11.76,8.4 L19.6,8.4 L19.6,9.8 L11.76,9.8 C11.48,10.64 10.64,11.2 9.8,11.2 C8.96,11.2 8.12,10.64 7.84,9.8 L0,9.8 L0,8.4 L7.84,8.4 C8.12,7.56 8.82,7 9.8,7 Z M9.8,9.8 C10.22,9.8 10.5,9.52 10.5,9.1 C10.5,8.68 10.22,8.4 9.8,8.4 C9.38,8.4 9.1,8.68 9.1,9.1 C9.1,9.52 9.38,9.8 9.8,9.8 Z" id="path-1"></path>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-7.000000, -106.000000)">
+            <g transform="translate(0.000000, 99.000000)">
+                <g>
+                    <g transform="translate(7.000000, 7.000000)">
+                        <g>
+                            <rect fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="28" height="28"></rect>
+                            <g transform="translate(4.200000, 5.600000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use fill="#1D1D1B" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <g mask="url(#mask-2)" fill="#FFFFFF">
+                                    <g transform="translate(-4.200000, -5.600000)">
+                                        <rect x="0" y="0" width="28" height="28"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

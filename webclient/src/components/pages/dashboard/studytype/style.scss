@@ -1,0 +1,39 @@
+.study-type {
+    box-sizing: border-box;
+    width: 94%;
+    padding: 0 30px;
+    border-radius: 5px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #efefef;
+    align-items: center;
+    h2 { text-transform: capitalize; }
+    .show-options {
+        display: flex;
+        position: relative;
+        img { cursor: pointer; }
+        ul {
+            border: 1px solid #bfbfbf;
+            position: absolute;
+            top: 20px;
+            right: 0;
+            overflow: hidden;
+            background-color: #fff;
+            li {
+                margin-bottom: 5px;
+                &:last-of-type { margin-bottom: 0; }
+                a { 
+                    box-sizing: border-box;
+                    width: 100%;
+                    padding: 5px 20px;
+                    border: none;
+                    display: inline-block;
+                    color: #000;
+                    &:hover { background-color: #b9e4dd; }
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import 'global';
+
+.c-button{
+    display    : flex;
+    font-weight: 600;
+    height     : 20px;
+    align-items: center;
+    margin-right: 14px;
+    
+        img{ opacity: 0.8; }
+        p{ 
+            padding-left: 10px;
+            font-weight: 400;
+        }
+}
+
+.c-button:hover{ img{ opacity: 1; } }
+.c-btn-p{ margin-right: 14px; }
+
+.tag-btn{
+    background-color: $tag-dye_gray;
+    margin-top      : 10px;
+    margin-right    : 10px;
+}
+
+.btn-p{ margin-right: 10px; }

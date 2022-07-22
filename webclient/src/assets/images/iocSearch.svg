@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Keyicons/Filter Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.4478944,16.3770504 L12.4498944,11.3930504 C14.7908663,8.48889681 14.4432744,4.25921403 11.6595893,1.77620073 C8.87590425,-0.706812573 4.6341439,-0.570776378 2.01527945,2.08550043 C-0.603585013,4.74177724 -0.679443736,8.98504038 1.8428027,11.7332271 C4.36504913,14.4814139 8.59923657,14.7689784 11.4698944,12.3870504 L16.4678944,17.3850504 L17.4478944,16.3770504 Z M2.97189437,10.9310504 C0.916601211,8.6815375 0.994803091,5.21314417 3.14939564,3.05855162 C5.30398819,0.903959077 8.77238151,0.825757196 11.0218944,2.88105036 C13.0771875,5.13056322 12.9989857,8.59895655 10.8443931,10.7535491 C8.68980056,12.9081416 5.22140723,12.9863435 2.97189437,10.9310504 Z" id="path-1"></path>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-259.000000, -106.000000)">
+            <g transform="translate(0.000000, 99.000000)">
+                <g>
+                    <g transform="translate(259.000000, 7.000000)">
+                        <g>
+                            <rect fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="28" height="28"></rect>
+                            <g transform="translate(5.600000, 5.600000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <g mask="url(#mask-2)" fill="#20091B">
+                                    <g transform="translate(-5.600000, -5.600000)">
+                                        <rect x="0" y="0" width="28" height="28"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+api/src/config/setting.ts
+.idea/modules.xml
+.idea/at-master.iml
+.idea/dbnavigator.xml
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/dictionaries/ashishbaheti.xml
+.idea/markdown-navigator/profiles_settings.xml
+webclient/.env
+webclient/.env.production
+webclient/.env.staging

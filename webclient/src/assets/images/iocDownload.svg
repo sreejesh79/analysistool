@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>L:7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.446,7.91 L7.7,10.164 L7.7,0 L9.1,0 L9.1,10.192 L11.382,7.91 L12.376,8.904 L8.414,12.866 L4.452,8.904 L5.446,7.91 Z M15.4,2.8 C16.1265513,2.797052 16.7346158,3.35039074 16.8,4.074 L16.8,15.526 C16.7346158,16.2496093 16.1265513,16.802948 15.4,16.8 L1.4,16.8 C0.673448726,16.802948 0.0653841722,16.2496093 0,15.526 L0,4.074 C0.0653841722,3.35039074 0.673448726,2.797052 1.4,2.8 L6.3,2.8 L6.3,4.2 L1.4,4.2 L1.4,15.4 L15.4,15.4 L15.4,4.2 L10.5,4.2 L10.5,2.8 L15.4,2.8 Z" id="path-1"></path>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1248.000000, -36.000000)">
+            <g transform="translate(1241.000000, 29.000000)">
+                <g transform="translate(7.000000, 7.000000)">
+                    <g>
+                        <rect fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="28" height="28"></rect>
+                        <g transform="translate(5.600000, 5.600000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g mask="url(#mask-2)" fill="#FFFFFF">
+                                <g transform="translate(-5.600000, -5.600000)">
+                                    <rect x="0" y="0" width="28" height="28"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

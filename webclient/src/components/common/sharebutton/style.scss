@@ -1,0 +1,23 @@
+.share-btn-container {
+    padding: 7px 7px 7px 7px;
+    display: inline-block;
+    background-color: #0984E3;
+    cursor: pointer;
+    &.disabled{
+        background-color: #9e9e9e;
+        cursor: default;
+    }
+    img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    span {
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}

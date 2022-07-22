@@ -1,0 +1,11 @@
+.filter-btn{
+    width : 42px;
+    height : 42px;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    background : #0984E3;    
+    &:hover{
+        background: rgb(0, 143, 253);
+    }
+}

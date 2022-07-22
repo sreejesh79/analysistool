@@ -1,0 +1,139 @@
+.post-card-container {
+    width: 350px;
+    height: 600px;
+    margin-right: 35px;
+    display: inline-block;
+    vertical-align: top;    
+    .participant-details {
+        font-size: 14px;
+        .date { 
+            float: right;
+            color: #b9b7b7;
+        }
+    }
+    .media-type {
+        width: 100%;
+        height: 350px;
+        position: relative;
+        background-color: #dedfe0;
+        .media-img {
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            object-fit: contain;
+        }
+        .check-box {
+            width: 21px;
+            height: 21px;
+            border-radius: 5px;
+            position: absolute;
+            top: 21px;
+            right: 0;
+            cursor: pointer;
+            background-color: white;
+            box-shadow: inset 0px 0px 2px 1px grey;
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            &.checked
+            {
+                background-color: #000;
+                &::after {
+                    content: "";
+                    width: 3px;
+                    height: 6px;
+                    border: solid white;
+                    border-width: 0 2px 2px 0;
+                    display: block;
+                    position: absolute;                    
+                    top: 5px;
+                    right: 7px;   
+                    -webkit-transform: rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+            }
+        }
+        .verb-icon {
+            width: 21px;
+            height: 21px;
+            border-radius: 5px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            cursor: pointer;
+        }
+        .play-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;    
+        }
+    }       
+    .postcard-tags-container {
+        margin-top: 8px;
+        position: relative;
+        .postcard-tags{
+            height: 35px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            .tag-groups {
+                max-width: 40%;
+                display: inline-block;
+                background-repeat:no-repeat;
+                background-color: #A6FF94;
+                margin-right: 10px;
+                overflow: hidden;
+                &:nth-child(2n) { background-color: #94FFD4; }
+                &.single-tag {
+                    max-width: 100%;
+                }
+            }
+            .filtered-tag-btn { 
+                max-width: 95%;
+                .filtered-tag-name {
+                    max-width: 90%;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .more-tags-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            button { 
+                padding: 6px 17px;
+                margin-right: 0;
+                display: inherit;
+                background-color: #f6f6f6;
+                height: 35px;
+                .c-button { margin-right: 0; }
+                p { padding-left: 0; margin: 0; }
+            }
+        }
+        .transparent {
+            background-color: #A6FF94;
+            &:nth-child(2n) { background-color: #94FFD4; }
+            &:nth-child(3n) { background-color: #94ACFF; }
+            &:nth-child(4n) { background-color: #FCF891; }
+            &:nth-child(5n) { background-color: #FF94A4; }
+            &:nth-child(6n) { background-color: #FE94FF; }
+            &:nth-child(7n) { background-color: #94FFF3; }
+            &:nth-child(8n) { background-color: #C595FF; }
+            &:nth-child(9n) { background-color:  #DBFC91; }
+            &:nth-child(10n) { background-color: #94E5FF; }
+            .c-button { font-size: 14px; }
+        }
+    }
+}

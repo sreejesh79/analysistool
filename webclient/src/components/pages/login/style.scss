@@ -1,0 +1,83 @@
+li { list-style: none; }
+
+.login-wrapper {
+    width:83%;
+    padding: 1px 0;
+    margin: 0 auto;
+    background-color: #fff;
+    .login {
+        width: 98%;
+        border: 1px solid #d6d6d6;
+        border-radius: 13px;
+        padding-bottom: 35px;
+        margin: 30px auto;
+        background-color: #f9f9f9;
+        h2 {
+            color: #696969;
+            font-weight: 400;
+            text-align: center;
+        }
+        hr {
+            width: 95%;
+            border-right: 0;
+            border-top: 0;
+            border-bottom: 1px solid #d6d6d6;
+            border-left: 0;
+            margin: 0 auto;
+        }
+        .login-form {
+            width: 35%;
+            margin: 0 auto;            
+            label { 
+                display: block; 
+                font-size: 14px;
+                line-height: 1.8;
+            }
+            input[type="text"],
+            input[type="password"] { 
+                width: 100%;
+                margin-bottom: 20px;
+                font-size: 15px;
+                padding: 10px 5px;
+                &::-webkit-input-placeholder { color: #d2ced6; }
+                &:-moz-placeholder { color: #d2ced6 !important; }
+                &::-moz-placeholder { color: #d2ced6 !important; }
+                &:-ms-input-placeholder { color: #d2ced6 !important; }
+            }
+            // .error {
+            //     background-color: rgba(236,88,64,.1);
+            //     border: 1px solid red;
+            // }
+            a { 
+                color: #27a1ef;
+                font-size: 12px;
+                float: right;
+            }
+            button {
+                border: 1px solid transparent;
+                font-size: 14px;
+                padding: 10px 85px;            
+                margin: 0 0 1rem;
+                background-color: #27a1ef;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.app-container{
+    display        : flex;
+    flex-direction : column;
+    flex           : 1;
+    height         : 100vh;
+    justify-content: space-between;
+    background-color: #ececec;
+}
+
+.login-footer {
+    width: 100%;
+    height: 5vh;
+    background-image: linear-gradient(to bottom,#0995c3,#b9e4dd);
+    color: #e0e0e0;
+}

@@ -1,0 +1,12 @@
+node_modules
+dist
+package-lock.json
+.env
+logs
+.logs
+.tmp
+*.log
+build
+/src/config/setting.ts
+*env*
+*pem

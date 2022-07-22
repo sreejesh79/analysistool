@@ -1,0 +1,39 @@
+.filtered-items{
+    width: 100%;
+    max-height: 120px;
+    margin: 12px 0 auto;    
+    overflow-y: auto;
+    img { 
+        cursor: pointer;
+        vertical-align: middle;
+    }
+    .tag {
+        padding: 1px 10px;
+        margin: 0 10px 10px 0px;
+        display: inline-block;
+        font-size: 14px;
+        &.org-tag{
+            // background: #D2DAEB;
+            background: #DFE6E9;
+        }
+        &.study-tag{
+            // background: #A9F6F4;
+            background: #636E72;
+            color: #fff;
+        }
+        &.studyTag-tag{
+            // background: #A9F6F4;
+            background: #5625a2;
+            color: #fff;
+        }
+        &.text-tag{
+            // background: #FFA9FA;
+            background: #00CEC9;
+            color: #fff;
+        }
+        .close-tag {
+            font-size: 12px;
+            padding-left: 5px;
+        }
+    }
+}

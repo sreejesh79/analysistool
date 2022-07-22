@@ -1,0 +1,9 @@
+@import 'textstyle';
+@import 'global';
+@import 'states';
+
+html, .root {
+    font-size  : 18px;
+    line-height: 27px !important;
+    font-family: 'Avenir Next', 'Nunito', Helvetica, Arial, sans-serif;
+  }

@@ -1,0 +1,12 @@
+li{
+  box-sizing: border-box;
+  margin-bottom: 1px;
+  position: relative;  
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  &:nth-child(even){
+    .acc-header { background-color: #fff; }
+    .acc-content { background-color: #f9f9f9; }
+  }
+}
+ 

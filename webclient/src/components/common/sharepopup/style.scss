@@ -1,0 +1,53 @@
+.share-pop-up-wrapper{
+        width: 50%;
+        padding: 30px 35px;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: #fff;
+        .link-name {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .link-to-be-copied {
+            box-sizing: border-box;
+            width: 100%;            
+            padding: 10px 15px;
+            border: none;
+            margin: 20px 0 10px;
+            background-color: #ECF0F4;
+            resize: none;
+            word-break: break-all;
+        }
+        .copy-btn {
+                padding: 10px;
+                border: none;
+                float: right;
+                background-color: #0984E3;
+                color: #fff;
+                cursor: pointer;
+                font-size: 14px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+        }
+        .close-pop-up{
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            cursor: pointer;
+        }
+        span{
+            padding: 3px 10px;
+            display: inline-block;
+            border: 1px solid #FF9F00;
+            background-color: #FFEAC7;
+            font-size: 16px;
+            font-style: italic;
+            animation-name: fadeOut;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+    }

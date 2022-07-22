@@ -1,0 +1,49 @@
+.tag-btn-container {
+    position: relative;
+    &.hide { display: none; }
+    &:hover {
+        .tag-tooltip-text {
+        font-size: 14px;
+        opacity: 1;
+        max-width: 250px;
+        min-width: 140px;
+        height: auto;
+        padding: 10px 10px;
+        border-radius: 5px;
+        transition-property: all;
+        transition-duration: 0.2s;
+        transition-delay: .3s;
+        }
+    }
+    .tag-btn {
+        p {
+            box-sizing: border-box;
+            width: 170px;
+            padding: 0 10px;
+            margin: 5px 0;
+            color: #485762;
+            font-size: 14px;
+            font-weight: 600;
+            overflow: hidden;
+            text-align: center;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            }
+        }
+    .tag-tooltip-text {
+        box-sizing:border-box;
+        width: 170px;
+        height: 27px;
+        margin: 5px 0;
+        position: absolute;
+        bottom: 0;
+        background-color: rgb(34, 146, 238);
+        color: #fff;
+        font-size: 14px;
+        line-height: 1.5;
+        opacity: 0;
+        text-align: center;
+        transition: opacity 0.3s;
+        font-size: 5px;
+    }
+}

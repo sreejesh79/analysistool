@@ -1,0 +1,20 @@
+.search-result{
+    width: 83%;
+    padding: 10px 0 15px;
+    margin: 0 auto;
+    display: flex;
+    // flex: 1;
+    span {
+        color: gray;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    }
+}
+.centered-loader{
+    z-index: 99;
+    position: relative;
+    top: 15%;
+    left: 41%;
+    min-height: 115px;
+}

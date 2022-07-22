@@ -1,0 +1,23 @@
+button{
+    &.transparent{
+        padding: 0;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        outline:none;
+        cursor: pointer;
+        &:hover {
+            div {
+                p { 
+                    color: #2292ee;
+                    font-weight: bold;
+                }
+            }
+            h2 { color: #2292ee; }
+        }
+        &:disabled { 
+            cursor: default;
+        }
+        
+    }
+}

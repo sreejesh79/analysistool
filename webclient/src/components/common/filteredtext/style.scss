@@ -1,0 +1,29 @@
+.filtered-text-container {
+    p {
+        // margin: 0 0 1px 20px;
+        display: inline;
+        // color: #636E72;
+        // font-size: 21px;
+        font-style: italic;        
+        letter-spacing: 0;
+        text-align: justify;
+        font-style: italic;
+        font-weight: 600;
+        vertical-align: middle;
+    }
+    img { 
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .show-filtered-data {
+        width: 42px;
+        height: 44px;
+        -webkit-transition: opacity 2s;
+        transition: opacity 2s;
+        cursor: pointer;
+        &.disabled { cursor: default; }
+    }
+    .hide-filtered-data {
+        cursor: pointer;
+    }
+}

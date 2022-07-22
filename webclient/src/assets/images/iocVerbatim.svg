@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>iocVerbatim</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-681.000000, -624.000000)">
+            <g transform="translate(397.000000, 527.000000)">
+                <g transform="translate(279.000000, 95.000000)">
+                    <g>
+                        <g>
+                            <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                        </g>
+                        <g transform="translate(5.000000, 2.000000)" fill="#4A90E2">
+                            <path d="M7.03605,3.16068589 L7.010025,8.4878156 L5.22805,7.11063695 L3.47944405,8.4878156 L3.42015,3.16068589 L2.45735,3.16068589 C2.1299,3.16068589 1.86345,2.88454666 1.86345,2.54538016 C1.86345,2.20611007 2.1299,1.93007442 2.45735,1.93007442 L13.0883,1.93007442 C13.60195,1.93007442 14.02005,1.49716973 14.02005,0.964985421 C14.02005,0.432801115 13.602,0 13.0883,0 L2.4573,0 C1.1023,0 0,1.14189683 0,2.54532837 L0,17.1050437 C0,18.7013377 1.25385,20 2.795,20 L13.02005,20 C13.5723347,20 14.02005,19.5522847 14.02005,19 L14.02005,3.16068589 L7.03605,3.16068589 Z" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

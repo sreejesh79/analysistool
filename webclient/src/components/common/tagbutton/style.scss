@@ -1,0 +1,62 @@
+.filtered-tag-btn {
+    min-height: 28px;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: 0px solid transparent;
+    background-color: #94E5FF;
+    &:nth-child(2n) { background-color: #A6FF94; }
+    &:nth-child(3n) { background-color: #94ACFF; }
+    &:nth-child(4n) { background-color: #94FFD4; }
+    &:nth-child(5n) { background-color: #9D94FF; }
+    &:nth-child(6n) { background-color: #FCCD91; }
+    &:nth-child(7n) { background-color: #94FFF3; }
+    &:nth-child(8n) { background-color: #C594FF; }
+    &:nth-child(9n) { background-color: #94ACFF; }
+    &:nth-child(10n) { background-color: #FE94FF; }
+    &:first-of-type { margin-left: 0; }
+    .filtered-tag-name{
+        padding: 5px 40px 5px 10px;        
+        display: inline-block;
+        color: #485762;
+        font-size: 14px;    
+        pointer-events: none;   
+    }
+    .check-box {
+        width: 21px;
+        height: 21px;
+        border-radius: 50%;
+        position: absolute;
+        pointer-events: none;
+        top:50%;
+        right: 0;
+        background-color: white;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        &.checked
+        {
+            background-color: #000;
+            &::after {
+                content: "";
+                width: 3px;
+                height: 6px;
+                border: solid white;
+                border-width: 0 2px 2px 0;
+                display: block;
+                position: absolute;                    
+                top: 5px;
+                right: 7px;   
+                -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+        }
+    }
+}

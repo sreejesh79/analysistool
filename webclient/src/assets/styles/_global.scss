@@ -1,0 +1,45 @@
+// root //
+* {
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Avenir Next",Nunito,Helvetica,Arial,sans-serif;
+}
+// app colours //
+.gra_look {
+    background-image: linear-gradient(-180deg, #0995C3 0%, #B9E4DD 98%);
+}
+$dye-blue     : #B7D3F4;
+$dye-blue_high: #1F6AC1;
+$dye-white    : #fff;
+$dye-gray     : #F2F2F2;
+$dye-red     : #FF0000;
+
+$tag-dye_gray: #DFE6E9;
+
+.bg-color-white{
+    background-color: $dye-white;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+html{ 
+    width: 100%;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+.error {
+    font-size: 80%;
+    color: $dye-red
+}
+
+.top-position {
+    top: 10px
+}
+
+.capitalize {
+    text-transform: capitalize;
+}

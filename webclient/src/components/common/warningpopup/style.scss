@@ -1,0 +1,81 @@
+.warning-pop-up{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 27;
+    background-color: rgba(0,0,0,.5);
+    .warning-pop-up-wrapper{
+        padding: 30px 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: #fff;
+        text-align: center;
+        .header-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .link-name {
+                margin: 0;
+                padding: 0px;                
+                color: #0984E3;
+                font-size: 20px;
+                font-weight: 600;
+            }.close-pop-up{
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                cursor: pointer;
+            }
+            p {
+                padding: 15px 50px;
+                margin: 0;
+            }
+            img {
+                height: 35px;
+                margin-right: 10px;
+                width: 35px;
+            }    
+        }.close-pop-up{
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            cursor: pointer;
+        }
+        p {
+            padding: 15px 50px;
+            margin: 0;
+        }
+        .confirmation-wrapper {
+            display: flex;
+            float: right;
+            /* background: beige; */
+            padding: 0px;
+            flex-direction: inherit;
+            margin-top: 15px;
+            margin-right: 50px;
+            .cancel-button {
+                /* float: left; */
+                /* padding-left: 30px; */
+                /* margin-left: 30px; */
+                padding: 10px;
+                border: 1px solid #2199e8;
+                margin-right: 15px;
+                font-size: 15px;
+            }
+            .confirm-button {
+                /* float: right; */
+                /* margin-right: 30px; */
+                padding: 10px;
+                /* border: 1px solid #2199e8; */
+                background-color: #ec5840;
+                color: #fff;
+                font-size: 15px;
+                /* margin-left: 10px; */
+            }
+        }
+    }
+}

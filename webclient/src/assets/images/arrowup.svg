@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Keyicons/Filter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="2.541 0 1.05 1.491 8.484 8.904 15.918 1.491 14.427 0 8.484 5.943"></polygon>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-649.000000, -99.000000)">
+            <g transform="translate(0.000000, 99.000000)">
+                <g transform="translate(649.000000, 0.000000)">
+                    <g transform="translate(21.000000, 21.000000) rotate(180.000000) translate(-21.000000, -21.000000) ">
+                        <g>
+                            <rect fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="42" height="42"></rect>
+                            <g transform="translate(12.600000, 16.800000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <g mask="url(#mask-2)" fill="#2D3436">
+                                    <g transform="translate(-12.600000, -16.800000)">
+                                        <rect x="0" y="0" width="42" height="42"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
